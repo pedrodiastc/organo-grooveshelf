@@ -1,13 +1,80 @@
+:root {
+  /* === Base === */
+  --background-color: #121212;   /* App background (deep black) */
+  --title-color: #FFFFFF;      /* Main title color */
+  --text-color: #E0E0E0;         /* Main text color */
+  
+  /* === Inputs & Form === */
+  --input-bg: #2a2a2a;           /* Inputs background */
+  --input-border: #333333;       /* Inputs border */
+  --input-text: #FFFFFF;         /* Inputs text color */
+  --input-radius: 8px;           /* Inputs border-radius */
+  --input-shadow: 3px 3px 20px rgb(51, 51, 51, 0.4);  /* Subtle input box-shadow */
+
+  --form-bg: #202020;  
+  
+  --card-bg: #1f1f1f; /* Form background (same as app background) */
+
+  /* === Buttons === */
+  --button-bg: #1ed760;          /* Spotify green */
+  --button-hover: #1ED760;       /* Lighter green on hover */
+  --button-text: #000;        /* Button text */
+
+  --border-radius: 8px;
+  --transition-speed: 0.3s;
+
+  /* === Categories === */
+  --rock-primary: #D32F2F;       /* Rock card section background */
+  --rock-secondary: #B71C1C;
+  --rock-bg: red;     /* Rock underline */
+
+  --pop-primary: #1976D2;        /* Pop card section background */
+  --pop-secondary: #0D47A1;
+  --pop-bg: #0D73EC;     /* Pop underline */
+
+  --jazz-primary: #FBC02D;       /* Jazz card section background */
+  --jazz-secondary: #F57F17;     /* Jazz underline */
+  --jaz-z-bg: #8D67AB;
+
+  --indie-primary: #7B1FA2;      /* Indie card section background */
+  --indie-secondary: #4A148C;
+  --indie-bg:  #E91429;    /* Indie underline */
+
+  --electronic-primary: #00ACC1; /* Electronic card section background */
+  --electronic-secondary: #006064;
+  --eletronic-bg:  #7e1047; /* Electronic underline */
+}
 body {
+  background-color: #000;
+  color: var(--text-color);
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.form-toggle {
+  margin: 1.6rem auto;
+  color: var(--text-color);
+  max-width: 70%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.icon-button {
+  text-align: right;
+  align-self: flex-end;
+  align-content: flex-end;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.icon-button:hover {
+  transform: scale(1.1);
+  color:var(--button-hover);
 }

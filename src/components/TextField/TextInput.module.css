@@ -1,0 +1,23 @@
+.textfield {
+  margin: 24px 0;
+ }
+
+ .textfield label {
+  color: var(--input-text);
+  font-weight: 600;
+  display: block;
+  margin-bottom: 8px;
+  font-size: 24px;
+ }
+
+ .textfield input {
+  background-color: var(--input-bg);
+  color: var(--input-text);
+  box-shadow: var(--input-shadow);
+  width: 100%;
+  border: none;
+  font-size: 24px;
+  padding: 24px;
+  box-sizing: border-box;
+
+}

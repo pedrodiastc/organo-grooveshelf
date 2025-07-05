@@ -1,0 +1,16 @@
+.default-button {
+  background-color: var(--button-bg); /* Bootstrap primary color */
+  color: var(--button-text); /* Button text color */
+  font-weight: 700;
+  border: none;
+  padding: 32px;
+  font-size: 18px;
+  border-radius: 9999px; /* Consistent border radius */
+  margin: 32px 0;
+  cursor: pointer;
+  transition: background-color var(--transition-speed) ease;
+}
+
+.default-button:hover {
+  background-color: var(--button-hover); /* Darker shade for hover effect */
+}

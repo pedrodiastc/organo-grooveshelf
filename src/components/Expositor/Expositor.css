@@ -1,0 +1,42 @@
+.expositor {
+  width: 280px;
+}
+
+.expositor .expositor-header {
+  background-color: red;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.expositor img {
+  width: 130px;
+  position: relative;
+  bottom: -50px;
+}
+
+.expositor .expositor-footer {
+  background: var(--card-bg);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+  border-radius: 0px 0px 8px 8px;
+  padding-top: 90px;
+  padding-bottom: 40px;
+}
+
+.expositor .expositor-footer h4 {
+  color: var(--title-color);
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: bold;
+  font-style: initial;
+  margin-bottom: 8px;
+  padding: 16px 0px;
+} 
+.expositor .expositor-footer h4::first-letter {
+  text-transform: uppercase;
+}
+
+.expositor .expositor-footer h5 {
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--text-color);
+    padding: 0 16px;
+}

@@ -1,0 +1,23 @@
+.list-suspen{
+  margin: 24px 0;
+}
+
+.list-suspen label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 24px;
+  color: #fff;
+  font-weight: 600;
+
+}
+
+.list-suspen select {
+  width: 100%;
+  background-color: var(--input-bg);
+  color: var(--text-color);
+  border: none;
+  box-sizing: border-box;
+  padding: 24px;
+  font-size: 24px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+}
